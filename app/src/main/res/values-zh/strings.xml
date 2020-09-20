@@ -3,4 +3,11 @@
     <string name="app_name">AndroidExamples</string>
     <string name="hello"> 呀哈哈 </string>
     <string name="ButtonText">小淘气按钮</string>
+    <string name="toast_message">更多信息</string>
+    <string name="switchBtn">开 / 关</string>
+    <string name="typeEnter">请输入</string>
+    <string name="checkBox">请打勾</string>
+    <string name="snackMessage">开关已打开</string>
+    <string name="switchoff">关</string>
+    <string name="switchOn">开</string>
 </resources>

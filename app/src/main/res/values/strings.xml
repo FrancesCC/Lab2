@@ -1,5 +1,13 @@
-<resources>
-    <string name="app_name" translatable="false">AndroidExamples</string>
-    <string name="hello" translatable="false"> Look at my GUI </string>
-    <string name="ButtonText" translatable="false">I\'m a button</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="MissingTranslation">AndroidExamples</string>
+    <string name="hello" > Look at my GUI </string>
+    <string name="ButtonText" >I\'m a button</string>
+    <string name="checkBox">Check this out!</string>
+    <string name="switchBtn">Switch on / off</string>
+    <string name="toast_message" >Here is more information</string>
+    <string name="typeEnter">Type Here</string>
+    <string name="snackMessage">The switch is now</string>
+    <string name="switchoff">Off</string>
+    <string name="switchOn">On</string>
+    <string name="undo">Undo</string>
 </resources>

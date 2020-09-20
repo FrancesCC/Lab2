@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">AndroidExamples</string>
-    <string name="hello"> Bonjour</string>
-    <string name="ButtonText">I\'m a button</string>
+    <string name="hello">" Regardez mon GUI"</string>
+    <string name="ButtonText">" Je suis un bouton"</string>
+    <string name="switchBtn">Allumer / éteindre</string>
+    <string name="toast_message">Voici plus d\'informations</string>
+    <string name="typeEnter">" Écrivez ici"</string>
+    <string name="checkBox">Regarde ça!</string>
+    <string name="snackMessage">Le commutateur est maintenant</string>
 </resources>

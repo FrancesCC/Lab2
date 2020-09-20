@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UseSwitchCompatOrMaterialXml"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/root_view">
 
     <TextView
         android:id="@+id/myTextView"
@@ -11,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:textSize="30dp"
-        android:text="Look at my GUI"  />
+        android:text="@string/hello"  />
 
 
    <Button
@@ -21,7 +24,7 @@
        android:layout_marginTop="16dp"
        android:paddingLeft="65dp"
        android:paddingRight="65dp"
-       android:text="CLICK HERE"
+       android:text="@string/ButtonText"
        android:layout_width="wrap_content" />
 
 
@@ -32,7 +35,7 @@
         android:paddingLeft="8dp"
         android:layout_marginTop="62dp"
         android:layout_toRightOf="@+id/button1"
-        android:text="Check this out!"
+        android:text="@string/checkBox"
         />
 
     <ImageView
@@ -45,20 +48,24 @@
 
     <Switch
         android:id="@+id/switchBtn"
-        android:text="Switch on / off"
+        android:text="@string/switchBtn"
         android:paddingTop="150dp"
         android:paddingLeft="10dp"
+        android:textOff="@string/switchoff"
+        android:textOn="@string/switchOn"
+        android:checked="true"
         android:layout_toRightOf="@id/flag1"
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content" />
+        android:layout_width="wrap_content"
+         />
+
 
     <EditText
         android:layout_below="@+id/flag1"
         android:layout_width="fill_parent"
         android:paddingTop="20dp"
         android:layout_height="wrap_content"
-        android:hint="Type Here" />
-
-
+        android:inputType="textPersonName"
+        android:hint="@string/typeEnter" />
 
 </RelativeLayout>
