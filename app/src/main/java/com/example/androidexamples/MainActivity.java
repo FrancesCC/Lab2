@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // different layout.
+
         //setContentView(R.layout.activity_main_grid);
         setContentView(R.layout.activity_main_linear);
         //setContentView(R.layout.activity_main_relative);
