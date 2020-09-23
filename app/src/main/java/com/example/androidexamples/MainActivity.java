@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 
         // different layout.
 
-        setContentView(R.layout.activity_main_grid);
-        //setContentView(R.layout.activity_main_linear);
+        //setContentView(R.layout.activity_main_grid);
+        setContentView(R.layout.activity_main_linear);
         //setContentView(R.layout.activity_main_relative);
 
 
